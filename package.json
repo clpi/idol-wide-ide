@@ -1,0 +1,24 @@
+{
+  "name": "idol-wide-ide",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Idol Wide IDE — environment for weight space programming, where weights are first-class values and every learned result carries its premises.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "export": "next build"
+  },
+  "dependencies": {
+    "next": "^14.2.35",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.10",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "typescript": "5.5.3"
+  }
+}
